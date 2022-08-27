@@ -477,8 +477,8 @@ klik https://wa.me/${botNumber.split`@`[0]}`, m, { mentions: [roof.p, roof.p2] }
             let reason = user.afkReason || ''
             m.reply(`
 Jangan tag dia!
-Dia sedang COLY ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
-Selama ${clockString(new Date - afkTime)}
+Dia sedang Sibuk ${reason ? 'dengan alasan ' + reason : 'tanpa alasan'}
+Cuy ${clockString(new Date - afkTime)}
 `.trim())
         }
 
@@ -497,7 +497,7 @@ Selama ${clockString(new Date - user.afkTime)}
                 let user = global.db.data.users[m.sender]
                 user.afkTime = + new Date
                 user.afkReason = text
-                m.reply(`${m.pushName} Telah Afk${text ? ': ' + text : ''}`)
+                m.reply(`${m.pushName}  ${text ? ': ' + text : ''}`)
             }
             break	
         case 'ttc': case 'ttt': case 'tictactoe': {
@@ -594,10 +594,10 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    
             case 'sc': {
-                anu = `*Kalian Bisa Cek Yt XaviorOfc:*
-https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+                anu = `* *
 
-*Recode By : Xavior88*
+
+*Recode By *
 https://github.com/Xavior88`
 let btn = [{
                                 urlButton: {
@@ -1243,12 +1243,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1282,12 +1282,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -2899,7 +2899,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6281511480762?text=SEWABOT
+├  🪀 wa.me/6288269131506?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2921,7 +2921,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  NAMA BOT, NAMA OWNER, OWNER, DLL DI GANTI JADI TERSERAH LU
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6281511480762?text=JADIBOT
+├  🪀 wa.me/6288269131506?text=JADIBOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2970,15 +2970,15 @@ let btn = [{
                         }
             break
 case 'gopay': {
-                m.reply('NOPE GOPAY: 081511480762')
+                m.reply('ga ada gpay')
             }
             break
 case 'dana': {
-                m.reply('NOPE DANA: 081511480762')
+                m.reply('ga punya dana')
             }
             break
 case 'pulsa': {
-m.reply('MAAF TIDAK MENERIMA PEMBAYARAN PULSA:(')
+m.reply('Smartfren : 088269131506')
 }
 break
 // Button List
@@ -2986,16 +2986,16 @@ case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
                     title: `Ternyata ${pushname} Ini Sangat Kocak Gaming\n\nJika ${pushname} Lagi Gabut Klik Aja Kotak Ini\n`,
-                    description: "*Klik Aja deck🗿👇*",
-                    buttonText: "MENU",
-                    footerText: "Njir Masih Dibaca",
+                    description: "*Click Here*",
+                    buttonText: "-BOT",
+                    footerText: ",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "All Menu Hentai",
 								"rows": [
 									{
-										"title": "All Menu Hentai",
-										"description": "Cari Di YT Bot Bang🗿",
+										"title": "All Menu",
+										"description": "waduh",
 										"rowId": `${prefix}allmenu`
 									}
 								]
@@ -3091,11 +3091,11 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 										]
 										},
 							{
-								"title": "Pembuat Bot👤",
+								"title": "Developer",
 								"rows": [
 									{
-										"title": "Pembuat Bot",
-										"description": "Pembuat Botnya Cuy",
+										"title": "Developer",
+										"description": "Gwe",
 										"rowId": `${prefix}owner`
 									}
 								]
@@ -3111,7 +3111,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Thanks To👑",
+								"title": "Tqto",
 								"rows": [
 									{
 										"title": "Contributor",
@@ -3419,12 +3419,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3496,12 +3496,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3582,12 +3582,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3655,12 +3655,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3735,12 +3735,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3810,12 +3810,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3888,12 +3888,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3984,12 +3984,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4061,12 +4061,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4135,12 +4135,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4214,12 +4214,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4309,12 +4309,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4392,12 +4392,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4467,12 +4467,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4540,12 +4540,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4609,12 +4609,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4679,12 +4679,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4755,12 +4755,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4798,12 +4798,12 @@ let btn = [{
                 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4846,12 +4846,12 @@ anu = `╭─❏ *『 DONASI 』*
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4920,12 +4920,12 @@ Pembuatan Bot Ini`
 let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4974,18 +4974,18 @@ https://github.com/sonelstore
 Nanang:
 https://github.com/Xavior88
 YahyaGanz:
-https://github.com/AzzBott679
+https://github.com/lower-keys
 Penyedia Rest Api :
 https://zenzapis.xyz`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'My Youtube️',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'belum ada yt'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Website Bot',
-                                    url: 'https://github.com/AzzBott679'
+                                    url: 'https://github.com/lower-keys'
                                 }
                                 }, {
                                 quickReplyButton: {
